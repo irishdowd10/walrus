@@ -16,4 +16,9 @@ $(document).ready(function() {
     $("body").addClass("dark-background");
   });
 
+  $(".clickable-history").click(function() {
+    $("#history-box").toggle();
+    $("#history-box-border").toggle();
+  });
+
 });

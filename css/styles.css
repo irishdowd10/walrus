@@ -36,3 +36,26 @@
   .dark-background .panel-body {
     color: black;
   }
+
+#history-box-border {
+  display: none;
+  border: 2px dotted red;
+  margin: 4px;
+  padding:4px;
+
+}
+
+#history-box {
+  margin: 4px;
+  padding:4px;
+
+}
+
+.clickable-history {
+  cursor: pointer;
+  color: #0088cc;
+ }
+
+.clickable-history:hover {
+   text-decoration: underline;
+ }
