@@ -23,3 +23,16 @@
   .clickable-walrus:hover {
     text-decoration: underline;
   }
+
+  .light-background {
+    background-color: white;
+  }
+
+  .dark-background {
+    background-color: black;
+    color: white;
+  }
+
+  .dark-background .panel-body {
+    color: black;
+  }
